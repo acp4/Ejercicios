@@ -9,18 +9,23 @@
         <link rel="icon" href="./assets/img/icon-uni.png">
     </head>
     <body>
-        <h1>Mi página</h1>
+        <main>
+            <h1>Mi página</h1>
+        <article>
             <h2>Mi imagen favorita es:</h2>
-            <img src="./assets/img/rick y morty multiverso.jpg" >
-
-        <h2>Descripcion breve</h2>
-            <p> Mi nombre es Abraham Castillo Pérez       <br>
+            <img src="./assets/img/rick y morty multiverso.jpg" alt="Descripcion por rick y morty sobres multiples universos">
+        </article>
+        <article> 
+           <h2>Descripcion breve</h2>
+               <p> Mi nombre es Abraham Castillo Pérez       <br>
                 tengo 25 años,naci el 9 de abril de 1998  <br>
                 me gusta mucho escuchar musica electronica<br>
                 ,jugar ajedrez,armar el cubo rubik y      <br>
                 resolver problemas dificiles.
-            </p>
-        <h2>Mi mayor Logro(académico,profesional y personal)</h2>
+               </p>
+         </article> 
+         <section>
+           <h2>Mi mayor Logro(académico,profesional y personal)</h2>
             <ol>
                 <li>Académico</li>
                     <ul>
@@ -38,7 +43,21 @@
                         >Quedar 3er lugar en concurso de robotica</li>
                     </ul>
             </ol>
-        <h2>Mis bebidas favoritas son</h2>
+        </section>
+        <aside>
+            <h2>Mi musica favorita</h2>
+              <ol>
+                  <li><a href="https://www.youtube.com/watch?v=pKtLNYNWbBw" target="_blank">Stand by me - Ben E. King</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=54KFiVxej0M" target="_blank">Earth Angel - Marvin Berry & Banda Del Futuro</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=ptkw2rPhAuM" target="_blank">Running Home to You - Grant Gustin</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=yKNxeF4KMsY" target="_blank">Yellow - Coldplay</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=owTWCbq_nSk" target="_blank">Something Just Like This - 
+                      The Chainsmokers
+                      </a></li>
+              </ol>
+        </aside>
+        <section>
+          <h2>Mis bebidas favoritas son</h2>
             <ul>
                 <li>Café</li>
                 <li>Jugo de naranja</li>
@@ -47,17 +66,9 @@
                 <li>Pepsi</li>
                 <li>Manzanita</li>
             </ul>
-        <h2>Mi musica favorita</h2>
-            <ol>
-                <li><a href="https://www.youtube.com/watch?v=pKtLNYNWbBw">Stand by me - Ben E. King</a></li>
-                <li><a href="https://www.youtube.com/watch?v=54KFiVxej0M">Earth Angel - Marvin Berry & Banda Del Futuro</a></li>
-                <li><a href="https://www.youtube.com/watch?v=ptkw2rPhAuM">Running Home to You - Grant Gustin</a></li>
-                <li><a href="https://www.youtube.com/watch?v=yKNxeF4KMsY">Yellow - Coldplay</a></li>
-                <li><a href="https://www.youtube.com/watch?v=owTWCbq_nSk">Something Just Like This - 
-                    The Chainsmokers
-                    </a></li>
-            </ol>
-        <h2>Explicacion de terminos y etiquetas</h2>
+        </section>
+        <section>
+          <h2>Explicacion de terminos y etiquetas</h2>
             <dl>
                 <dt>función</dt>
                     <dd> Una función es una parte reutilizable de un programa.</dd>
@@ -73,6 +84,8 @@
                 <dt>Etiqueta footer,/footer</dt>
                     <dd>Usadas para definir el pie de página.</dd>
             </dl>
+        </section>
+        <section>
         <h2>Lista anidada Generos de musica</h2>
              <ol>
                 <li>Electronica</li>
@@ -120,5 +133,62 @@
                            </ul>
                     </ul>
              </ol>
+            </section>
+            <section>
+                <h2>Generos de musica</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Generos</th>
+                            <th colspan="3">Canciones</th>
+                            <th>Que tan famosa es</th>
+                            <th>Semanas en el ranking</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Electronica</th>
+                            <th>Animals</th>
+                            <th>Welcome to ibiza</th>
+                            <th>Memories</th>
+                            <th rowspan="2">Mucho</th>
+                            <th rowspan="3">2 semanas</th>
+                        </tr>
+                        <tr>
+                            <th>Rock</th>
+                            <th>Bohemian Rhapsody</th>
+                            <th>Hotel california</th>
+                            <th>Respect</th>
+                        </tr>
+                        <tr>
+                            <th>Pop</th>
+                            <th>Pero a tu lado</th>
+                            <th>Thriller</th>
+                            <th>Dejame</th>
+                            <th>Medio</th>
+                        </tr>
+                        <tr>
+                            <th>Salsa</th>
+                            <th>Periodico de ayer</th>
+                            <th>Casi te envidio</th>
+                            <th>Vivir mi vida</th>
+                            <th rowspan="2">Bajo</th>
+                            <th>1 Semana</th>
+                        </tr>
+                        <tr>
+                            <th>Reguetton</th>
+                            <th>Dale don</th>
+                            <th>Caramelo</th>
+                            <th>Criminal</th>
+                            <th>4 dias</th>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>Elaborado por:Abraham Castillo</p>
+        </footer>
     </body>
 </html>
